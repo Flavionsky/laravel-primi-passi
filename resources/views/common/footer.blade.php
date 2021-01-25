@@ -1,7 +1,7 @@
 <footer>
     <div class="container first-row">
         <div class="col-lg-3 col-xs-6">
-            <img src="img/logo-white.svg" alt="White Logo">
+            <img src="img/logo.png" alt="Logo">
         </div>
         <div class="col-lg-3 col-xs-6">
             <h3>Home</h3>
@@ -16,14 +16,9 @@
             </ul>
         </div>
         <div class="col-lg-3 col-xs-6">
-            <h3>Company</h3>
+            <h3>Music</h3>
             <ul>
-                <li><a href="#">Contact Us</a></li>
-                <li><a href="#">Support</a></li>
-                <li><a href="#">Twitter Support</a></li>
-                <li><a href="#">Newsroom</a></li>
-                <li><a href="#">Media Assets</a></li>
-                <li><a href="#">Blog</a></li>
+                <li><a href="/dischi">Music Page</a></li>
             </ul>
         </div>
         <hr>
@@ -48,7 +43,7 @@
         </div>
         <div class="col-lg-3 col-xs-6">
             <a href="#">
-                <h4>&copy;2019Company</h4>
+                <h4>&copy;Laravel</h4>
             </a>
         </div>
         <hr>

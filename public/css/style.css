@@ -30,7 +30,7 @@
   }
   
   .logo-navbar img{
-    width: 100px;
+    width: 150px;
     height: 60px;
     float: right;
   }
@@ -53,206 +53,19 @@
     text-decoration: none;
     color: inherit;
   }
-  
-  .hero-bg{
-    background-image: url("../img/hero-bg.jpg");
-    height: 700px;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
-  .hero-container{
-    position: absolute;
-    top:50%;
-    left:50%;
-    transform:translate(-50%, -50%);
-  }
-  .hero-center-text{
-    text-align: center;
-  }
-  .hero-center-text h1{
-    color: white;
-    font-size: 50px;
-  }
-  .hero-center-text p{
-    padding-top: 20px;
-    color: white;
-    font-size: 18px;
-    padding-bottom: 20px;
-  }
-  .app-download img{
-    height: 60px;
-    padding-right: 5px;
-    float: left;
-  }
-  .hb-products{
-    text-align: center;
-  }
-  .hb-products .hb-go{
-    height: 600px;
-    width: 500px;
-    background-color: #FAFAFA;
-    margin: 40px 20px 0 0;
-  }
-  .hb-products .hb-go-logo img, .hb-products .hb-bike-logo img{
-    margin: 50px 0 20px 0;
-    height: 20px;
-  }
-  .hb-products h2{
-    margin: 0 0 20px 0;
-  }
-  .hb-products a{
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 18px;
-  }
-  .hb-go-image img, .hb-bike-image img {
-    width: 100%;
-  }
-  .hb-products .hb-bike{
-    height: 600px;
-    width: 500px;
-    background-color: #FAFAFA;
-    margin: 40px 0 20px;
-  }
-  .how-to-pick{
-    position: relative;
-  }
-  .hb-oldman{
-    margin-top: 40px;
-    background-image: url("../img/oldman.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 500px;
-    position: relative;
-  }
-  .hb-oldman img{
-    height: 560px;
-    width: 300px;
-    margin-top:200px;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50% , 0);
-  }
-  .left-text{
-    margin-top: 75px;
-    height: 500px;
-    width: 250px;
-    position: absolute;
-    top:100%;
-    right:70%;
-    font-size: 25px;
-  }
-  .right-text{
+  main{
     margin-top: 100px;
-    height: 500px;
-    position: absolute;
-    top:100%;
-    left:70%;
-  }
-  .right-text h3{
-    padding-bottom: 5px;
-  }
-  section.smart-mobility{
-    background-image: url("../img/scooter-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 300px;
-    height: 400px;
-    position: relative;
-    color: white;
-  }
-  .scooter-text{
-    width: 35%;
-    position: absolute;
-    right:10%;
-    top: 25%;
-    text-align: center;
-  }
-  .scooter-text h1{
-    font-size: 45px;
-    padding-bottom: 20px;
-  }
-  .scooter-text p{
-    font-size: 20px;
-    padding-bottom: 20px;
-  }
-  .scooter-text a{
-    font-size: 20px;
-    color: white;
-    text-decoration: none;
-  }
-  .app-find{
-    padding-top: 30px;
-    color: white;
-    text-align: center;
-  }
-  .get-app{
-    background-color: #313E4C;
-    height: 400px;
-    width: 520px;
-    margin-right: 15px;
-    position: relative;
-  }
-  .get-app img{
-    width: 340px;
-    height: 200px;
-    position: absolute;
-    bottom: 0;
-    left: 50%;
-    transform: translate(-50% , 0);
-  }
-  .app-find a{
-    color:white;
-    text-decoration: none;
-  }
-  .app-find h1{
-    padding-top: 20px;
-    padding-bottom: 20px;
-  }
-  .app-find p{
-    padding-bottom: 20px;
-  }
-  .find-us{
-    background-image: url("../img/city.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
-    width: 520px;
-    margin-left: 15px;
-  }
-  .hb-family{
-    background-image: url("../img/hb-family-image.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-top: 30px;
-    width: 100%;
-    height: 500px;
-    position: relative;
-  }
-  .hb-family-text{
-    text-align: center;
-    height: 180px;
-    width: 400px;
-    background-color: white;
-  }
-  .hb-family-text h1{
-    padding-bottom: 10px;
-  }
-  .icons-container a{
-    color: black;
-  }
-  .icons-container a:not(:last-child){
-    padding-right: 10px;
-  }
-  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }  
   footer{
+    margin-top: 100px;
     background-color: black;
     color: white;
   }
   footer > .container img{
-    height: 18px;
+    height: 50px;
   }
   footer .first-row .col-lg-3{
     margin-top: 100px;
